@@ -17,6 +17,7 @@ export const HeroSection = () => {
             </p>
 
             <div className="flex space-x-8 pt-4">
+              <a href="#experience" className="simple-link">Experience</a>
               <a href="#work" className="simple-link">Work</a>
               <a href="#about" className="simple-link">About</a>
               <a href="#contact" className="simple-link">Contact</a>

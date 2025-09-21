@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Minimal grayscale palette */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --text-primary: 0 0% 0%;
+    --text-secondary: 0 0% 30%;
+    --text-muted: 0 0% 50%;
+    
+    /* Accent colors - very subtle */
+    --accent: 0 0% 97%;
+    --accent-foreground: 0 0% 10%;
+    
+    /* Interactive elements - minimal blue */
+    --link: 210 100% 40%;
+    --link-hover: 210 100% 30%;
+    
+    /* UI elements */
+    --border: 0 0% 90%;
+    --input: 0 0% 98%;
+    --ring: 210 100% 40%;
+    
+    /* Component backgrounds */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+    
+    /* Standard shadcn colors */
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 10%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 50%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --sidebar-background: var(--background);
+    --sidebar-foreground: var(--foreground);
+    --sidebar-primary: var(--primary);
+    --sidebar-primary-foreground: var(--primary-foreground);
+    --sidebar-accent: var(--accent);
+    --sidebar-accent-foreground: var(--accent-foreground);
+    --sidebar-border: var(--border);
+    --sidebar-ring: var(--ring);
+    --radius: 0rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --text-primary: 0 0% 98%;
+    --text-secondary: 0 0% 70%;
+    --text-muted: 0 0% 50%;
+    --link: 210 100% 60%;
+    --link-hover: 210 100% 70%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  /* Minimal Typography System */
+  .title {
+    @apply text-3xl lg:text-4xl font-medium text-text-primary leading-tight tracking-tight;
+  }
+  
+  .section-title {
+    @apply text-xl font-medium text-text-primary mb-8;
+  }
+  
+  .body {
+    @apply text-base font-normal text-text-secondary leading-relaxed;
+  }
+  
+  .caption {
+    @apply text-sm font-normal text-text-muted;
+  }
+  
+  .mono {
+    @apply font-mono text-sm;
+  }
+  
+  /* Simple link styles */
+  .simple-link {
+    @apply text-link hover:text-link-hover transition-colors duration-200;
+  }
+  
+  /* Grid layouts */
+  .grid-minimal {
+    @apply grid gap-12 lg:gap-16;
+  }
+  
+  /* Spacing utilities */
+  .section-space {
+    @apply py-16 lg:py-24;
+  }
+  
+  .content-space {
+    @apply space-y-6;
+  }
+}

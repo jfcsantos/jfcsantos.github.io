@@ -21,27 +21,27 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = portfolioData
   .map((entry: PortfolioEntry) => {
-    const yearMatch = entry.itemDetails.date.content.match(/(\d{4})/);
+    const yearMatch = entry.period.match(/(\d{4})/);
     const year = yearMatch ? parseInt(yearMatch[1], 10) : 0;
-    const websiteMatch = entry.itemDetails.website.content.match(/href='([^']+)'/);
+    const websiteMatch = entry.website?.content?.match(/href='([^']+)'/);
     const websiteHref = websiteMatch ? websiteMatch[1] : undefined;
-    const websiteLabel = entry.itemDetails.website.content.replace(/<[^>]+>/g, '').trim();
+    const websiteLabel = entry.website?.content?.replace(/<[^>]+>/g, '').trim();
 
     return {
-      id: entry.id,
+      id: entry.company,
       title: entry.title,
-      client: entry.itemDetails.client.content,
+      client: entry.company,
       year,
-      dateLabel: entry.itemDetails.date.content,
+      dateLabel: entry.period,
       website:
         websiteHref && websiteLabel
           ? {
-              href: websiteHref,
-              label: websiteLabel
-            }
+            href: websiteHref,
+            label: websiteLabel
+          }
           : undefined,
-      summaryHtml: entry.introText,
-      categories: entry.categories.split(',').map((item) => item.trim())
+      summaryHtml: entry.description,
+      categories: entry.technologies
     };
   })
   .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
@@ -49,7 +49,7 @@ const experiences: ExperienceItem[] = portfolioData
 export default function WorkPage() {
   return (
     <div className="work-page">
-      {/* <SiteHeader /> */}
+      <SiteHeader />
       <main className="work-main">
         <section className="work-hero" aria-labelledby="work-title">
           <h1 id="work-title">Work experience</h1>
@@ -93,7 +93,7 @@ export default function WorkPage() {
           ))}
         </section>
       </main>
-      <SiteFooter />
+      <SiteFooter noNav={true} />
     </div>
   );
 }

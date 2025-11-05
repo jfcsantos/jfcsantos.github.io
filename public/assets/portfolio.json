@@ -1,140 +1,220 @@
 [
-    {
-        "id": "cruk-fundraise",
-        "imageUrl": "images/portfolio/cruk-fundraise.png",
-        "name": "CRUK Fundraising",
-        "title": "CRUK Fundraising Platform",
-        "categories": "fundraise, charity, Drupal, PHP",
-        "introText": "<p>The new fundraising platform created in-house by Cancer Research UK aims to provide a seamless, free and enjoyable way of creating <a href='https://fundraise.cancerresearchuk.org/e-lions' target='_blank'>Fundraising Pages</a>.</p>",
-        "description": "<p>Together with the digital team at CRUK, I led the development of this Drupal based project. The platform uses a mix of both Drupal 7 with custom built Symphony Web Services serving the required contents and assets to the user.</p><p>Besides the ability to personalize the page, the main feature built is the Donation feed. This list of past donations and messages left by contributors is part of the integration with CRUK's donation and payment processing services.</p>",
-        "itemDetails": {
-          "client": {
-            "title": "Client",
-            "content": "Cancer Research UK"
-          },
-          "website": {
-            "title": "Website",
-            "content": "<a href='https://fundraise.cancerresearchuk.org/' target='_blank'>fundraise.cancerresearchuk.org</a>"
-          },
-          "date": {
-            "title": "Date",
-            "content": "June 2016"
-          }
-        }
-    },
-    {
-        "id": "dec-org",
-        "imageUrl": "images/portfolio/dec-org.png",
-        "name": "Disasters Emergency Committee",
-        "title": "Disasters Emergency Committee",
-        "categories": "fundraise, charity, Drupal, PHP, Stripe, Embedly",
-        "introText": "<p>The Disasters Emergency Committee brings together 13 leading UK aid agencies to raise money at times of humanitarian crisis in poorer countries. By working together we can raise more money to save lives and rebuild shattered communities.</p>",
-        "description": "<p>Helped build and deploy the new DEC website, a mobile-friendly project focused on raising awareness for worldwide crisis appeals with a clean design and customized donation process.</p><p>Implemented a content feed for the Appeal pages using <a href='http://embed.ly/' target='_blank'>Embed.ly</a>, fetching relevant content from several sources including Twitter, Facebook and YouTube. Also created a custom Donation workflow integrating <a href='https://stripe.com/' target='_blank'>Stripe's</a> API for payment processing.</p>",
-        "itemDetails": {
-          "client": {
-            "title": "Client",
-            "content": "Disasters Emergency Committee"
-          },
-          "website": {
-            "title": "Website",
-            "content": "<a href='http://www.dec.org.uk/' target='_blank'>DEC.org.uk</a>"
-          },
-          "date": {
-            "title": "Date",
-            "content": "September 2015"
-          }
-        }
-    },
-    {
-        "id": "theatre-people",
-        "imageUrl": "images/portfolio/theatre-people.png",
-        "name": "Theatre People",
-        "title": "Theatre People",
-        "categories": "eCommerce, Bookings, Drupal, PHP, Python",
-        "introText": "<p>The main website of one of the biggest and most experienced theatre ticket provider in London, <a href='http://www.theatrepeople.com/' target='_blank'>TheatrePeople.com</a> handles a huge amount of traffic and bookings with an all in-house solution.</p>",
-        "description": "<p>As part of the Drupal development team at <a href='http://www.encoretickets.co.uk/' target='_blank'>Encore Tickets</a>, I was responsible for implementing new features, custom-built A/B test scenarios as well as maintenance and improvements to existing code.</p><p>With optimization in mind and in order to always have the most up-to-date ticket and show availability, I built a small Python service to provide multi-threading on custom inter-dependent Drupal cron jobs which ran every night. - <a href='https://github.com/jfcsantos/python-threads' target='_blank'>Overnight Updates</a></p>",
-        "itemDetails": {
-          "client": {
-            "title": "Client",
-            "content": "Encore Tickets Ltd"
-          },
-          "website": {
-            "title": "Website",
-            "content": "<a href='http://www.theatrepeople.com/' target='_blank'>TheatrePeople.com</a>"
-          },
-          "date": {
-            "title": "Date",
-            "content": "June 2014"
-          }
-        }
-    },
-    {
-        "id": "moon-jamaica",
-        "imageUrl": "images/portfolio/moonjamaica.png",
-        "name": "Moon Jamaica",
-        "title": "Moon Jamaica",
-        "categories": "Commerce, Drupal, PHP",
-        "introText": "<p>The Moon Jamaica website started as a digital version of it's older brother, the Moon Jamaica guide book, as a way to easily keep the contents up-to-date and provide a pleasant experience for the users. It is also a booking website, listing all the hotels, rental car and events available in the guide book.</p>",
-        "description": "<p>This website was built using Drupal with the Commerce modules to handle all the booking and store functionalities. Working as a consultant, I am trying to recreate and optimise the most important features built in the site, as well as improving the user experience of the overall website.</p>",
-        "itemDetails": {
-          "client": {
-            "title": "Client",
-            "content": "Moon Jamaica"
-          },
-          "website": {
-            "title": "Website",
-            "content": "<a href='https://www.moonjamaica.com/' target='_blank'>MoonJamaica.com</a>"
-          },
-          "date": {
-            "title": "Date",
-            "content": "August 2016"
-          }
-        }
-    },
-    {
-        "id": "esn-lisboa",
-        "imageUrl": "images/portfolio/esn-lisboa.png",
-        "name": "ESN Lisboa",
-        "title": "ESN Lisboa",
-        "categories": "Drupal, PHP, Volunteering, NPO",
-        "introText": "<p>ESN Lisboa is the Lisbon section of the Erasmus Student Network. It is a non-profit organization born in September 2008 by the hand of a small group of Portuguese Erasmus students that had just come from their Erasmus.</p>",
-        "description": "<p>As a volunteer member of the organisation I was responsable for the maintenance of the ESN Lisboa website. <a href='http://esn.org/' target='_blank'>ESN Satellite</a> is a website template for all ESN sections and projects based on Drupal 7 which has volunteer members contributing to it's constant development and improvement.</p>",
-        "itemDetails": {
-          "client": {
-            "title": "Client",
-            "content": "ESN Lisboa"
-          },
-          "website": {
-            "title": "Website",
-            "content": "<a href='esnlisboa.org' target='_blank'>ESN Lisboa</a>"
-          },
-          "date": {
-            "title": "Date",
-            "content": "September 2012"
-          }
-        }
-    },
-    {
-        "id": "tkb-fct",
-        "imageUrl": "images/portfolio/tkb-fct.png",
-        "name": "TKB FCT",
-        "title": "TKB Multimedia Archive",
-        "categories": "Drupal, PHP, D3.js",
-        "introText": "<p>As part of my Computer Science master thesis I worked on the TKB project - A Transmedia Knowledge Base for Perfoming Arts. This was part of a long, multi-faceted project, focused on video annotation and the creation of a platform where artists could easily store multimedia content and connect to others.</p>",
-        "description": "<p>The archive was created with the purpose of clearly displaying the connections between each artist and their content. With this in mind, I've abstracted most of the Drupal content views and used the <a href='https://d3js.org/' target='_blank'>D3.js</a> library for data visualization.</p><p>The result was a platform where all the content and users where connected in a graph-like display, related via categories, tag words or field of studies.</p>",
-        "itemDetails": {
-          "client": {
-            "title": "Client",
-            "content": "FCT UNL"
-          },
-          "website": {
-            "title": "Website",
-            "content": "<a href='https://tkb.fcsh.unl.pt/' target='_blank'>TKB Multimedia Archive</a>"
-          },
-          "date": {
-            "title": "Date",
-            "content": "July September 2012"
-          }
-        }
+  {
+    "company": "HP",
+    "title": "Web Developer",
+    "location": "Lisbon, Portugal",
+    "period": "January 2013 - August 2013",
+    "duration": "8 months",
+    "description": "Developed and maintained HP intranet websites worldwide, delivering custom web-based solutions for internal use. Analyzed project requirements and client requests across global HP teams, demonstrating strong communication and requirement gathering skills.",
+    "technologies": [
+      "Web Development",
+      "Intranet Development",
+      "Requirements Analysis"
+    ],
+    "highlights": [
+      "Built custom web-based projects for HP's internal operations",
+      "Maintained enterprise-level intranet infrastructure globally",
+      "Collaborated with international stakeholders on technical requirements"
+    ]
+  },
+  {
+    "company": "Encore Tickets Ltd",
+    "title": "Full-stack Developer",
+    "location": "London, United Kingdom",
+    "period": "August 2013 - August 2014",
+    "duration": "1 year 1 month",
+    "description": "Led full-stack development and maintenance of Drupal-based web platforms for a leading ticketing company. Architected and delivered middleware solutions and standalone applications, showcasing versatility across the technology stack.",
+    "technologies": [
+      "Drupal",
+      "PHP",
+      "Full-stack Development",
+      "Middleware"
+    ],
+    "highlights": [
+      "Custom development and maintenance of high-traffic e-commerce websites",
+      "Designed and built middleware and standalone applications",
+      "Delivered scalable solutions for ticketing industry web technologies"
+    ]
+  },
+  {
+    "company": "Mass1",
+    "title": "Full-stack Developer",
+    "location": "London, United Kingdom",
+    "period": "February 2015 - September 2015",
+    "duration": "8 months",
+    "description": "Served as Lead Web Developer for the Disasters Emergency Committee (DEC) website, managing end-to-end development and integration of critical payment processing systems. Led technical implementation of high-stakes fundraising platform requiring reliability and security.",
+    "technologies": [
+      "Web Development",
+      "Stripe",
+      "PayPal",
+      "API Integration",
+      "Embedly"
+    ],
+    "highlights": [
+      "Led development of DEC.org.uk fundraising platform",
+      "Integrated Stripe and PayPal payment systems for charitable donations",
+      "Implemented Embedly API for enhanced content functionality"
+    ],
+    "website": {
+      "title": "Disasters Emergency Committee",
+      "content": "<a href='https://www.dec.org.uk/' target='_blank'>DEC.org.uk</a>"
     }
+  },
+  {
+    "company": "Cancer Research UK",
+    "title": "Lead Web Developer",
+    "location": "London, United Kingdom",
+    "period": "September 2015 - July 2016",
+    "duration": "11 months",
+    "description": "Led web development initiatives for Cancer Research UK's digital fundraising platform. Directed technical strategy and implementation for mission-critical healthcare technology solutions, managing complex integrations and driving platform innovation.",
+    "technologies": [
+      "Drupal 7",
+      "Symphony",
+      "PHP",
+      "Web Services",
+      "Frontend Development"
+    ],
+    "highlights": [
+      "Led development of CRUK's in-house fundraising platform",
+      "Architected Drupal-based solutions with custom web services",
+      "Built donation feed feature integrating payment processing services",
+      "Delivered seamless user experiences for charitable fundraising pages"
+    ],
+    "website": {
+      "title": "Fundraising",
+      "content": "<a href='https://fundraise.cancerresearchuk.org/page/online-fundraising-team' target='_blank'>Fundraising</a>"
+    }
+  },
+  {
+    "company": "Bynder",
+    "title": "Frontend Engineer",
+    "location": "Barcelona, Spain",
+    "period": "October 2016 - February 2019",
+    "duration": "2 years 5 months",
+    "description": "Drove frontend development for Bynder's SaaS digital asset management platform, building scalable integrations and core product features. Leveraged modern JavaScript ecosystem to deliver high-performance web applications for enterprise clients.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Frontend Development"
+    ],
+    "highlights": [
+      "Developed integrations and new features for Bynder's core SaaS product",
+      "Built enterprise-grade frontend solutions using React and TypeScript",
+      "Implemented GraphQL architecture for efficient data management",
+      "Contributed to widely-used digital asset management platform"
+    ],
+    "website": {
+      "title": "Bynder",
+      "content": "<a href='https://www.bynder.com/' target='_blank'>Bynder</a>"
+    }
+  },
+  {
+    "company": "Carlsberg Group",
+    "title": "Frontend Engineer",
+    "location": "Lisbon, Portugal",
+    "period": "September 2019 - September 2020",
+    "duration": "1 year 1 month",
+    "description": "Engineered an offline-ready Progressive Web Application for Carlsberg's multi-billion-dollar e-commerce platform. Delivered cutting-edge web solutions using React and GraphQL, ensuring optimal performance and user experience across distributed systems.",
+    "technologies": [
+      "React",
+      "GraphQL",
+      "PWA",
+      "Progressive Web Apps",
+      "Frontend Development"
+    ],
+    "highlights": [
+      "Built offline-capable PWA for major e-commerce operations",
+      "Implemented React and GraphQL stack for scalable frontend architecture",
+      "Delivered high-performance web application for global beverage brand"
+    ]
+  },
+  {
+    "company": "Carlsberg Group",
+    "title": "Tech Lead",
+    "location": "Lisbon, Portugal",
+    "period": "September 2020 - September 2021",
+    "duration": "1 year 1 month",
+    "description": "Led and mentored frontend engineering teams at Carlsberg Group, establishing microfrontend architecture supporting multiple products and teams. Drove technical leadership across the organization, implementing AWS Lambda serverless solutions and CI/CD workflows with GitHub Actions.",
+    "technologies": [
+      "Microfrontends",
+      "AWS Lambda",
+      "Node.js",
+      "GitHub Actions",
+      "Frontend Leadership",
+      "Team Management"
+    ],
+    "highlights": [
+      "Led multiple frontend teams in enterprise environment",
+      "Architected and implemented microfrontend framework for scalable product development",
+      "Integrated AWS Lambda functions for serverless architecture",
+      "Established CI/CD pipelines using GitHub Actions",
+      "Mentored engineers and drove frontend best practices across teams"
+    ]
+  },
+  {
+    "company": "Tumblr (Automattic)",
+    "title": "Senior Frontend Engineer",
+    "location": "Remote",
+    "period": "April 2022 - January 2024",
+    "duration": "1 year 10 months",
+    "description": "Delivered high-impact frontend features for Tumblr's massive social media platform as part of Automattic's engineering organization. Built scalable, performant web applications serving millions of users, contributing to the evolution of one of the web's most iconic platforms.",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Frontend Development",
+      "Large-scale Web Applications"
+    ],
+    "highlights": [
+      "Developed features for high-traffic social media platform",
+      "Built user-centric solutions at massive scale",
+      "Contributed to Automattic's product ecosystem (WordPress.com, WooCommerce)",
+      "Shipped performant, clean code for millions of daily users"
+    ]
+  },
+  {
+    "company": "Automattic",
+    "title": "Senior Frontend Engineer",
+    "location": "Remote",
+    "period": "April 2022 - April 2025",
+    "duration": "3 years 1 month",
+    "description": "Senior frontend engineer at Automattic, makers of WordPress.com and WooCommerce, working on products that power a significant portion of the web. Leveraged modern JavaScript ecosystem including React, TypeScript, and Next.js to build scalable web applications. Focused on shipping performant code that delivers measurable business impact.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "GraphQL",
+      "AWS",
+      "JavaScript"
+    ],
+    "highlights": [
+      "Built features for WordPress.com and WooCommerce platforms",
+      "Delivered scalable solutions for products powering significant web traffic",
+      "Utilized AI tools to streamline development and automate workflows",
+      "Shipped clean, performant code with real business impact"
+    ]
+  },
+  {
+    "company": "Day One Journal",
+    "title": "Senior Frontend Engineer",
+    "location": "Remote",
+    "period": "January 2024 - April 2025",
+    "duration": "1 year 4 months",
+    "description": "Senior frontend engineer building user-centric features for Day One Journal's popular journaling application. Delivered fast, intuitive web experiences focusing on product strategy and user experience, while leveraging modern frontend technologies to ship impactful features.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Frontend Development",
+      "Product Engineering"
+    ],
+    "highlights": [
+      "Built user-first features for widely-used journaling platform",
+      "Blended engineering with product strategy and UX considerations",
+      "Delivered performant, scalable frontend solutions",
+      "Focused on shipping features with measurable user impact"
+    ]
+  }
 ]

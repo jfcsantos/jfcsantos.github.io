@@ -26,10 +26,10 @@ export default function HomePage() {
 
         <div className="cta-group">
           <a className="cta cta--primary" href={`mailto:${profile.email}`}>
-            Start a project
+            Want to work together?
           </a>
           <a className="cta cta--ghost" href="/assets/jsantos-cv.pdf" target="_blank" rel="noreferrer">
-            Download CV
+            My resume
           </a>
         </div>
       </main>

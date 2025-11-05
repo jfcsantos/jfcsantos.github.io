@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-The site runs on Next.js with the App Router. The landing view lives in `app/page.tsx`, work experience is handled by `app/work/page.tsx`, and error handling sits in `app/not-found.tsx`. Layout concerns (metadata, HTML shell) stay in `app/layout.tsx`. Shared nav/footer UI is defined in `components/SiteHeader.tsx` and `components/SiteFooter.tsx`, while all copy, nav targets, and CTA definitions live in `content/data.ts`. Static assets (CV, portfolio JSON, imagery, fonts) belong in `public/` and ship unchanged during `next build`.
+The site runs on Next.js with the App Router. The landing view lives in `app/page.tsx`, the about story in `app/about/page.tsx`, work experience in `app/work/page.tsx`, and the custom 404 in `app/not-found.tsx`. Layout concerns (metadata, HTML shell) stay in `app/layout.tsx`. Shared nav/footer UI is defined in `components/SiteHeader.tsx` and `components/SiteFooter.tsx`, while all copy, nav targets, and CTA definitions live in `content/data.ts`. Static assets (CV, portfolio JSON, imagery, fonts) belong in `public/` and ship unchanged during `next build`.
 
 ## Build, Test, and Development Commands
 - `npm install` — Install dependencies for Next.js, React, and TypeScript.

@@ -1,50 +1,21 @@
 import { SiteFooter } from '@/components/SiteFooter';
 import { SiteHeader } from '@/components/SiteHeader';
-import { profile } from '@/content/data';
 import portfolioData from '@/public/assets/portfolio.json';
 
-type PortfolioEntry = (typeof portfolioData)[number];
+type Company = (typeof portfolioData)[number];
+type Role = Company['roles'][number];
 
-type ExperienceItem = {
-  id: string;
-  title: string;
-  client: string;
-  year: number;
-  dateLabel: string;
-  website?: {
-    href: string;
-    label: string;
-  };
-  summaryHtml: string;
-  categories: string[];
+const parseYear = (label: string): number => {
+  const match = label.match(/(20\d{2}|19\d{2})/);
+  return match ? parseInt(match[1], 10) : 0;
 };
 
-const experiences: ExperienceItem[] = portfolioData
-  .map((entry: PortfolioEntry) => {
-    const yearMatch = entry.period.match(/(\d{4})/);
-    const year = yearMatch ? parseInt(yearMatch[1], 10) : 0;
-    const websiteMatch = entry.website?.content?.match(/href='([^']+)'/);
-    const websiteHref = websiteMatch ? websiteMatch[1] : undefined;
-    const websiteLabel = entry.website?.content?.replace(/<[^>]+>/g, '').trim();
-
-    return {
-      id: entry.id,
-      title: entry.title,
-      client: entry.company,
-      year,
-      dateLabel: entry.period,
-      website:
-        websiteHref && websiteLabel
-          ? {
-            href: websiteHref,
-            label: websiteLabel
-          }
-          : undefined,
-      summaryHtml: entry.description,
-      categories: entry.technologies
-    };
-  })
-  .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+const companies = [...portfolioData]
+  .map((company) => ({
+    ...company,
+    latestYear: company.roles.reduce((max, role) => Math.max(max, parseYear(role.date)), 0)
+  }))
+  .sort((a, b) => b.latestYear - a.latestYear || a.company.localeCompare(b.company));
 
 export default function WorkPage() {
   return (
@@ -60,35 +31,47 @@ export default function WorkPage() {
         </section>
 
         <section className="work-grid" aria-label="Experience timeline">
-          {experiences.map((item) => (
-            <article key={item.id} className="work-card">
-              <header>
-                <h2 className="work-card__title">{item.title}</h2>
-                <div className="work-card__meta">
-                  <span>{item.client}</span>
-                  <span>•</span>
-                  <span>{item.dateLabel}</span>
-                </div>
+          {companies.map((company) => (
+            <article key={company.company} className="work-card">
+              <header className="work-card__header">
+                <h2 className="work-card__title">{company.company}</h2>
+                {company.website ? (
+                  <a
+                    className="work-card__link"
+                    href={company.website.url}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {company.website.label}
+                  </a>
+                ) : null}
               </header>
-              <div
-                className="work-card__summary"
-                dangerouslySetInnerHTML={{ __html: item.summaryHtml }}
-              />
-              <div className="work-card__chips">
-                {item.categories.map((category) => (
-                  <span key={category}>{category}</span>
+
+              <div className="work-card__roles">
+                {company.roles.map((role: Role) => (
+                  <div key={role.id} className="work-role">
+                    <div className="work-role__heading">
+                      <h3>{role.title}</h3>
+                      <span className="work-role__date">{role.date}</span>
+                    </div>
+                    <div
+                      className="work-card__summary"
+                      dangerouslySetInnerHTML={{ __html: role.introHtml }}
+                    />
+                    {role.descriptionHtml ? (
+                      <details className="work-role__details">
+                        <summary>Read more</summary>
+                        <div dangerouslySetInnerHTML={{ __html: role.descriptionHtml }} />
+                      </details>
+                    ) : null}
+                    <div className="work-card__chips">
+                      {role.categories.map((category) => (
+                        <span key={category}>{category}</span>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </div>
-              {item.website ? (
-                <a
-                  className="work-card__link"
-                  href={item.website.href}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Visit project →
-                </a>
-              ) : null}
             </article>
           ))}
         </section>

@@ -1,210 +1,125 @@
 [
   {
-    "id": "hp",
-    "company": "HP",
-    "title": "Web Developer",
-    "location": "Lisbon, Portugal",
-    "period": "January 2013 - August 2013",
-    "duration": "8 months",
-    "description": "Developed and maintained HP intranet websites worldwide, delivering custom web-based solutions for internal use. Analyzed project requirements and client requests across global HP teams, demonstrating strong communication and requirement gathering skills.",
-    "technologies": [
-      "Web Development",
-      "Intranet Development",
-      "Requirements Analysis"
-    ],
-    "highlights": [
-      "Built custom web-based projects for HP's internal operations",
-      "Maintained enterprise-level intranet infrastructure globally",
-      "Collaborated with international stakeholders on technical requirements"
+    "company": "Automattic",
+    "roles": [
+      {
+        "id": "day-one-journal",
+        "title": "Senior Frontend Engineer - Day One Journal",
+        "date": "January 2024 - April 2025",
+        "introHtml": "<p>Senior frontend engineer building user-centric features for Day One Journal's popular journaling application. Delivered fast, intuitive web experiences focusing on product strategy and user experience, while leveraging modern frontend technologies to ship impactful features.</p>",
+        "descriptionHtml": "<p>Built user-first features for widely-used journaling platform, blending engineering with product strategy and UX considerations. Delivered performant, scalable frontend solutions with measurable user impact.</p>",
+        "categories": ["React", "TypeScript", "JavaScript", "Frontend Development", "Product Engineering"]
+      },
+      {
+        "id": "tumblr-automattic",
+        "title": "Senior Frontend Engineer - Tumblr",
+        "date": "April 2022 - January 2024",
+        "introHtml": "<p>Delivered high-impact frontend features for Tumblr's massive social media platform as part of Automattic's engineering organization. Built scalable, performant web applications serving millions of users, contributing to the evolution of one of the web's most iconic platforms.</p>",
+        "descriptionHtml": "<p>Developed features for high-traffic social media platform, building user-centric solutions at massive scale. Contributed to Automattic's product ecosystem (WordPress.com, WooCommerce), shipping performant, clean code for millions of daily users.</p>",
+        "categories": ["React", "JavaScript", "TypeScript", "Frontend Development", "Large-scale Web Applications"]
+      }
     ]
   },
   {
-    "id": "encore-tickets",
-    "company": "Encore Tickets Ltd",
-    "title": "Full-stack Developer",
-    "location": "London, United Kingdom",
-    "period": "August 2013 - August 2014",
-    "duration": "1 year 1 month",
-    "description": "Led full-stack development and maintenance of Drupal-based web platforms for a leading ticketing company. Architected and delivered middleware solutions and standalone applications, showcasing versatility across the technology stack.",
-    "technologies": [
-      "Drupal",
-      "PHP",
-      "Full-stack Development",
-      "Middleware"
-    ],
-    "highlights": [
-      "Custom development and maintenance of high-traffic e-commerce websites",
-      "Designed and built middleware and standalone applications",
-      "Delivered scalable solutions for ticketing industry web technologies"
+    "company": "Carlsberg Group",
+    "roles": [
+      {
+        "id": "carlsberg-group-tech-lead",
+        "title": "Tech Lead - CRM Platform",
+        "date": "September 2020 - September 2021",
+        "introHtml": "<p>Led and mentored frontend engineering teams at Carlsberg Group, establishing microfrontend architecture supporting multiple products and teams. Drove technical leadership across the organization, implementing AWS Lambda serverless solutions and CI/CD workflows with GitHub Actions.</p>",
+        "descriptionHtml": "<p>Led multiple frontend teams in enterprise environment, architecting and implementing microfrontend framework for scalable product development. Integrated AWS Lambda functions for serverless architecture, established CI/CD pipelines using GitHub Actions, and mentored engineers while driving frontend best practices across teams.</p>",
+        "categories": ["Microfrontends", "AWS Lambda", "Node.js", "GitHub Actions", "Frontend Leadership", "Team Management"]
+      },
+      {
+        "id": "carlsberg-group",
+        "title": "Frontend Engineer - CRM Platform",
+        "date": "September 2019 - September 2020",
+        "introHtml": "<p>Engineered an offline-ready Progressive Web Application for Carlsberg's multi-billion-dollar e-commerce platform. Delivered cutting-edge web solutions using React and GraphQL, ensuring optimal performance and user experience across distributed systems.</p>",
+        "descriptionHtml": "<p>Built offline-capable PWA for major e-commerce operations, implementing React and GraphQL stack for scalable frontend architecture. Delivered high-performance web application for global beverage brand.</p>",
+        "categories": ["React", "GraphQL", "PWA", "Progressive Web Apps", "Frontend Development"]
+      }
     ]
   },
   {
-    "id": "mass1",
-    "company": "Mass1",
-    "title": "Full-stack Developer",
-    "location": "London, United Kingdom",
-    "period": "February 2015 - September 2015",
-    "duration": "8 months",
-    "description": "Served as Lead Web Developer for the Disasters Emergency Committee (DEC) website, managing end-to-end development and integration of critical payment processing systems. Led technical implementation of high-stakes fundraising platform requiring reliability and security.",
-    "technologies": [
-      "Web Development",
-      "Stripe",
-      "PayPal",
-      "API Integration",
-      "Embedly"
-    ],
-    "highlights": [
-      "Led development of DEC.org.uk fundraising platform",
-      "Integrated Stripe and PayPal payment systems for charitable donations",
-      "Implemented Embedly API for enhanced content functionality"
-    ],
-    "website": {
-      "title": "Disasters Emergency Committee",
-      "content": "<a href='https://www.dec.org.uk/' target='_blank'>DEC.org.uk</a>"
-    }
-  },
-  {
-    "id": "cancer-research-uk",
-    "company": "Cancer Research UK",
-    "title": "Lead Web Developer",
-    "location": "London, United Kingdom",
-    "period": "September 2015 - July 2016",
-    "duration": "11 months",
-    "description": "Led web development initiatives for Cancer Research UK's digital fundraising platform. Directed technical strategy and implementation for mission-critical healthcare technology solutions, managing complex integrations and driving platform innovation.",
-    "technologies": [
-      "Drupal 7",
-      "Symphony",
-      "PHP",
-      "Web Services",
-      "Frontend Development"
-    ],
-    "highlights": [
-      "Led development of CRUK's in-house fundraising platform",
-      "Architected Drupal-based solutions with custom web services",
-      "Built donation feed feature integrating payment processing services",
-      "Delivered seamless user experiences for charitable fundraising pages"
-    ],
-    "website": {
-      "title": "Fundraising",
-      "content": "<a href='https://fundraise.cancerresearchuk.org/page/online-fundraising-team' target='_blank'>Fundraising</a>"
-    }
-  },
-  {
-    "id": "bynder",
     "company": "Bynder",
-    "title": "Frontend Engineer",
-    "location": "Barcelona, Spain",
-    "period": "October 2016 - February 2019",
-    "duration": "2 years 5 months",
-    "description": "Drove frontend development for Bynder's SaaS digital asset management platform, building scalable integrations and core product features. Leveraged modern JavaScript ecosystem to deliver high-performance web applications for enterprise clients.",
-    "technologies": [
-      "React",
-      "TypeScript",
-      "GraphQL",
-      "Frontend Development"
-    ],
-    "highlights": [
-      "Developed integrations and new features for Bynder's core SaaS product",
-      "Built enterprise-grade frontend solutions using React and TypeScript",
-      "Implemented GraphQL architecture for efficient data management",
-      "Contributed to widely-used digital asset management platform"
-    ],
     "website": {
-      "title": "Bynder",
-      "content": "<a href='https://www.bynder.com/' target='_blank'>Bynder</a>"
-    }
-  },
-  {
-    "id": "carlsberg-group",
-    "company": "Carlsberg Group",
-    "product": "CRM Platform",
-    "title": "Frontend Engineer",
-    "location": "Lisbon, Portugal",
-    "period": "September 2019 - September 2020",
-    "duration": "1 year 1 month",
-    "description": "Engineered an offline-ready Progressive Web Application for Carlsberg's multi-billion-dollar e-commerce platform. Delivered cutting-edge web solutions using React and GraphQL, ensuring optimal performance and user experience across distributed systems.",
-    "technologies": [
-      "React",
-      "GraphQL",
-      "PWA",
-      "Progressive Web Apps",
-      "Frontend Development"
-    ],
-    "highlights": [
-      "Built offline-capable PWA for major e-commerce operations",
-      "Implemented React and GraphQL stack for scalable frontend architecture",
-      "Delivered high-performance web application for global beverage brand"
+      "label": "Bynder",
+      "url": "https://www.bynder.com/"
+    },
+    "roles": [
+      {
+        "id": "bynder",
+        "title": "Frontend Engineer",
+        "date": "October 2016 - February 2019",
+        "introHtml": "<p>Drove frontend development for Bynder's SaaS digital asset management platform, building scalable integrations and core product features. Leveraged modern JavaScript ecosystem to deliver high-performance web applications for enterprise clients.</p>",
+        "descriptionHtml": "<p>Developed integrations and new features for Bynder's core SaaS product, building enterprise-grade frontend solutions using React and TypeScript. Implemented GraphQL architecture for efficient data management, contributing to widely-used digital asset management platform.</p>",
+        "categories": ["React", "TypeScript", "GraphQL", "Frontend Development"]
+      }
     ]
   },
   {
-    "id": "carlsberg-group-tech-lead",
-    "company": "Carlsberg Group",
-    "product": "CRM Platform",
-    "title": "Tech Lead",
-    "location": "Lisbon, Portugal",
-    "period": "September 2020 - September 2021",
-    "duration": "1 year 1 month",
-    "description": "Led and mentored frontend engineering teams at Carlsberg Group, establishing microfrontend architecture supporting multiple products and teams. Drove technical leadership across the organization, implementing AWS Lambda serverless solutions and CI/CD workflows with GitHub Actions.",
-    "technologies": [
-      "Microfrontends",
-      "AWS Lambda",
-      "Node.js",
-      "GitHub Actions",
-      "Frontend Leadership",
-      "Team Management"
-    ],
-    "highlights": [
-      "Led multiple frontend teams in enterprise environment",
-      "Architected and implemented microfrontend framework for scalable product development",
-      "Integrated AWS Lambda functions for serverless architecture",
-      "Established CI/CD pipelines using GitHub Actions",
-      "Mentored engineers and drove frontend best practices across teams"
+    "company": "Cancer Research UK",
+    "website": {
+      "label": "Fundraising",
+      "url": "https://fundraise.cancerresearchuk.org/page/online-fundraising-team"
+    },
+    "roles": [
+      {
+        "id": "cancer-research-uk",
+        "title": "Lead Web Developer",
+        "date": "September 2015 - July 2016",
+        "introHtml": "<p>Led web development initiatives for Cancer Research UK's digital fundraising platform. Directed technical strategy and implementation for mission-critical healthcare technology solutions, managing complex integrations and driving platform innovation.</p>",
+        "descriptionHtml": "<p>Led development of CRUK's in-house fundraising platform, architecting Drupal-based solutions with custom web services. Built donation feed feature integrating payment processing services, delivering seamless user experiences for charitable fundraising pages.</p>",
+        "categories": ["Drupal 7", "Symphony", "PHP", "Web Services", "Frontend Development"]
+      }
     ]
   },
   {
-    "id": "tumblr-automattic",
-    "company": "Automattic",
-    "product": "Tumblr",
-    "title": "Senior Frontend Engineer",
-    "location": "Remote",
-    "period": "April 2022 - January 2024",
-    "duration": "1 year 10 months",
-    "description": "Delivered high-impact frontend features for Tumblr's massive social media platform as part of Automattic's engineering organization. Built scalable, performant web applications serving millions of users, contributing to the evolution of one of the web's most iconic platforms.",
-    "technologies": [
-      "React",
-      "JavaScript",
-      "TypeScript",
-      "Frontend Development",
-      "Large-scale Web Applications"
-    ],
-    "highlights": [
-      "Developed features for high-traffic social media platform",
-      "Built user-centric solutions at massive scale",
-      "Contributed to Automattic's product ecosystem (WordPress.com, WooCommerce)",
-      "Shipped performant, clean code for millions of daily users"
+    "company": "Mass1",
+    "website": {
+      "label": "Disasters Emergency Committee",
+      "url": "https://www.dec.org.uk/"
+    },
+    "roles": [
+      {
+        "id": "mass1",
+        "title": "Full-stack Developer",
+        "date": "February 2015 - September 2015",
+        "introHtml": "<p>Served as Lead Web Developer for the Disasters Emergency Committee (DEC) website, managing end-to-end development and integration of critical payment processing systems. Led technical implementation of high-stakes fundraising platform requiring reliability and security.</p>",
+        "descriptionHtml": "<p>Led development of DEC.org.uk fundraising platform, integrating Stripe and PayPal payment systems for charitable donations. Implemented Embedly API for enhanced content functionality.</p>",
+        "categories": ["Web Development", "Stripe", "PayPal", "API Integration", "Embedly"]
+      }
     ]
   },
   {
-    "id": "day-one-journal",
-    "company": "Automattic",
-    "product": "Day One Journal",
-    "title": "Senior Frontend Engineer",
-    "location": "Remote",
-    "period": "January 2024 - April 2025",
-    "duration": "1 year 4 months",
-    "description": "Senior frontend engineer building user-centric features for Day One Journal's popular journaling application. Delivered fast, intuitive web experiences focusing on product strategy and user experience, while leveraging modern frontend technologies to ship impactful features.",
-    "technologies": [
-      "React",
-      "TypeScript",
-      "JavaScript",
-      "Frontend Development",
-      "Product Engineering"
-    ],
-    "highlights": [
-      "Built user-first features for widely-used journaling platform",
-      "Blended engineering with product strategy and UX considerations",
-      "Delivered performant, scalable frontend solutions",
-      "Focused on shipping features with measurable user impact"
+    "company": "Encore Tickets Ltd",
+    "website": {
+      "label": "TheatrePeople.com",
+      "url": "http://www.theatrepeople.com/"
+    },
+    "roles": [
+      {
+        "id": "encore-tickets",
+        "title": "Full-stack Developer",
+        "date": "August 2013 - August 2014",
+        "introHtml": "<p>Led full-stack development and maintenance of Drupal-based web platforms for a leading ticketing company. Architected and delivered middleware solutions and standalone applications, showcasing versatility across the technology stack.</p>",
+        "descriptionHtml": "<p>Custom development and maintenance of high-traffic e-commerce websites, designing and building middleware and standalone applications. Delivered scalable solutions for ticketing industry web technologies.</p>",
+        "categories": ["Drupal", "PHP", "Full-stack Development", "Middleware"]
+      }
+    ]
+  },
+  {
+    "company": "HP",
+    "roles": [
+      {
+        "id": "hp",
+        "title": "Web Developer",
+        "date": "January 2013 - August 2013",
+        "introHtml": "<p>Developed and maintained HP intranet websites worldwide, delivering custom web-based solutions for internal use. Analyzed project requirements and client requests across global HP teams, demonstrating strong communication and requirement gathering skills.</p>",
+        "descriptionHtml": "<p>Built custom web-based projects for HP's internal operations, maintaining enterprise-level intranet infrastructure globally. Collaborated with international stakeholders on technical requirements.</p>",
+        "categories": ["Web Development", "Intranet Development", "Requirements Analysis"]
+      }
     ]
   }
 ]

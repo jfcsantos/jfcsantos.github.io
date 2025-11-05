@@ -28,7 +28,7 @@ const experiences: ExperienceItem[] = portfolioData
     const websiteLabel = entry.website?.content?.replace(/<[^>]+>/g, '').trim();
 
     return {
-      id: entry.company,
+      id: entry.id,
       title: entry.title,
       client: entry.company,
       year,

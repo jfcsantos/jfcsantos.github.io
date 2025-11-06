@@ -12,7 +12,7 @@ const callouts = [
   },
   {
     title: 'Currently exploring',
-    body: 'AI assisted Web apps, performance-first patterns, and ways to make complex flows feel effortless.'
+    body: 'AI assisted Web app development, performance-first patterns, and ways to make complex flows feel effortless.'
   }
 ];
 

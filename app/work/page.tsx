@@ -25,8 +25,8 @@ export default function WorkPage() {
         <section className="work-hero" aria-labelledby="work-title">
           <h1 id="work-title">Work experience</h1>
           <p>
-            A snapshot of engagements I&apos;ve led or supported. These projects span fundraising, culture,
-            and travel—each balancing dependable Drupal foundations with modern front-end polish.
+            A snapshot of engagements I&apos;ve supported or led and organizations I worked with. These projects span from e-commerce, non profits, social media
+            and diverse tech — each pairing resilient platforms with product-led, modern web applications.
           </p>
         </section>
 
@@ -58,12 +58,6 @@ export default function WorkPage() {
                       className="work-card__summary"
                       dangerouslySetInnerHTML={{ __html: role.introHtml }}
                     />
-                    {role.descriptionHtml ? (
-                      <details className="work-role__details">
-                        <summary>Read more</summary>
-                        <div dangerouslySetInnerHTML={{ __html: role.descriptionHtml }} />
-                      </details>
-                    ) : null}
                     <div className="work-card__chips">
                       {role.categories.map((category) => (
                         <span key={category}>{category}</span>

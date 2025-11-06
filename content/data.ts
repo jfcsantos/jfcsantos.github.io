@@ -7,22 +7,22 @@ type ProfileLink = {
 
 export const profile = {
   name: 'Hi, I\'m João',
-  role: 'Frontend & Full-stack Engineer',
-  tagline: 'Crafter of digital products, IoT tinkerer and explorer of AI frontiers as a ',
+  role: 'Product / Full-stack Engineer',
+  tagline: '(feel free to say Jay/Jo/J-Wow) ',
   intro:
-    'Shipping resilient web experiences for cross-functional teams as a Frontend Engineer. When not crafting interfaces, you’ll find me wiring up IoT prototypes in the workshop or testing the boundaries of the latest AI tools. Modern JavaScript is my foundation, but curiosity is my compass.',
+    "who turned a love for tinkering on the web into a career of shipping resilient web experiences for cross-functional teams.",
   location: 'Global · Remote-first',
   email: 'hello@joaofsantos.com',
   highlights: [
-    'Lead full-stack delivery for charities, culture brands, and travel platforms.',
-    'Blend Drupal, Next.js, and design systems into tidy, scalable architecture.',
+    'Lead full-stack delivery for whatever type of product & teams.',
+    'Pair modern Javascript / Typescript, React (or any modern stack) and design systems to build scalable product architecture.',
     'Mentor teams, document the tricky bits, and hand over code people enjoy maintaining.'
   ],
   navLinks: [
     // { label: 'Home', url: '/' },
-    { label: 'Work', url: '/work' },
-    { label: 'About', url: '/about' },
-    { label: 'Projects', url: 'https://github.com/jfcsantos?tab=repositories', external: true },
+    { label: 'Career', url: '/work' },
+    // { label: 'Projects', url: 'https://github.com/jfcsantos?tab=repositories', external: true },
+    { label: 'Contact', url: '/contact' },
     // { label: 'Say hello', url: 'mailto:hello@joaofsantos.com', variant: 'pill' }
   ] as ProfileLink[],
   links: [

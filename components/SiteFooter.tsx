@@ -17,7 +17,7 @@ export function SiteFooter( { noNav }: { noNav?: boolean } ) {
           ))}
         </nav>
       )}
-      <p className="site-footer__note">© {new Date().getFullYear()} João Santos — Let’s build something thoughtful.</p>
+      {/* <p className="site-footer__note">© {new Date().getFullYear()} João Santos — Let’s build something thoughtful.</p> */}
     </footer>
   );
 }

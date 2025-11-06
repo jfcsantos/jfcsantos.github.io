@@ -22,7 +22,7 @@ export default function ContactPage() {
       <SiteHeader />
       <main className="about-main" aria-labelledby="contact-title">
         <section className="about-hero">
-          <h1 id="contact-title">Let’s build together.</h1>
+          <h1 id="contact-title">Let’s build something together.</h1>
           <p>
             Looking for someone who can translate product goals into modern, resilient web experiences? I partner with
             teams to balance discovery, delivery, and iterative learning—without letting the roadmap lose momentum.
@@ -49,7 +49,7 @@ export default function ContactPage() {
             send me a note. I am always up for honest conversations about the challenges you are trying to solve.
           </p>
           <a className="cta cta--primary" href="mailto:hello@joaofsantos.com">
-            Email João
+            Email me
           </a>
         </section>
       </main>

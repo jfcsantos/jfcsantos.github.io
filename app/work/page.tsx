@@ -23,9 +23,9 @@ export default function WorkPage() {
       <SiteHeader />
       <main className="work-main">
         <section className="work-hero" aria-labelledby="work-title">
-          <h1 id="work-title">Work experience</h1>
+          <h2 id="work-title">What I've been up to</h2>
           <p>
-            A snapshot of engagements I&apos;ve supported or led and organizations I worked with. These projects span from e-commerce, non profits, social media
+            This is a snapshot of engagements I&apos;ve supported or led and organizations I worked with. These projects span from e-commerce, non profits, social media
             and diverse tech — each pairing resilient platforms with product-led, modern web applications.
           </p>
         </section>

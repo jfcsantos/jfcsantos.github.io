@@ -2,7 +2,7 @@ import { SiteFooter } from '@/components/SiteFooter';
 import { SiteHeader } from '@/components/SiteHeader';
 
 const paragraphs = [
-  "Hi there! I'm João (feel free to say Jay). I'm a Lisbon-born product engineer who turned a love for tinkering on the web into a career of shaping thoughtful digital experiences.",
+  "Hi there! I'm João (feel free to say Jay/Jo/J-Wow). I'm a Portuguese-born product engineer who turned a love for tinkering on the web into a career of shaping thoughtful digital experiences.",
   'Most of my work lives at the intersection of technology, design, and people. I have led projects for charities, cultural organisations, and travel brands—often wrangling Drupal back-ends, crafting modern JavaScript front-ends, and coaching teams so they can keep momentum once I step away.',
   'When I am not pairing with designers or documenting release plans, you will likely find me outside: cycling, exploring new cities, or chasing the sun at the beach. I am also a fan of good wine, great cheese, and late-night conversations about music and adventure.'
 ];

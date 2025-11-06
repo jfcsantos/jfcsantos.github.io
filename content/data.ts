@@ -6,11 +6,11 @@ type ProfileLink = {
 };
 
 export const profile = {
-  name: 'João Santos',
-  role: 'Product engineer',
-  tagline: 'Building quietly confident products for purpose-led teams as a',
+  name: 'Hi, I\'m João',
+  role: 'Frontend & Full-stack Engineer',
+  tagline: 'Crafter of digital products, IoT tinkerer and explorer of AI frontiers as a ',
   intro:
-    'I design resilient delivery systems, lead cross-functional squads, and prototype with modern JavaScript so ideas leave the backlog.',
+    'Shipping resilient web experiences for cross-functional teams as a Frontend Engineer. When not crafting interfaces, you’ll find me wiring up IoT prototypes in the workshop or testing the boundaries of the latest AI tools. Modern JavaScript is my foundation, but curiosity is my compass.',
   location: 'Global · Remote-first',
   email: 'hello@joaofsantos.com',
   highlights: [

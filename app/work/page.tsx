@@ -56,7 +56,7 @@ export default function WorkPage() {
                     <div className="work-role__heading">
                       <div className="work-role__title">
                         <h3>{role.title}</h3>
-                        {role.website ? (
+                        {'website' in role && role.website ? (
                           <a
                             className="work-card__icon work-role__icon"
                             href={role.website.url}

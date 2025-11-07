@@ -28,10 +28,6 @@ export default function ContactPage() {
             Looking for someone who can translate product goals into modern, resilient web experiences? I partner with
             teams to balance discovery, delivery, and iterative learning—without letting the roadmap lose momentum.
           </p>
-          <p>
-            Tell me what you are working on and I will help chart the path forward, from architecture decisions to the
-            final handover.
-          </p>
         </section>
 
         <section className="about-grid" aria-label="Highlights">
@@ -50,13 +46,17 @@ export default function ContactPage() {
             send me a note. I am always up for honest conversations about the challenges you are trying to solve.
           </p>
 
-          <ul className="hero__list">
+          <ul className="hero__list contact-highlights">
             {profile.highlights.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
 
-          <a className="cta cta--primary" href="mailto:hello@joaofsantos.com">
+           <p>
+            Tell me what you are working on and I will help chart the path forward, from architecture decisions to the
+            final handover.
+          </p>
+          <a className="cta cta--primary contact-email" href="mailto:hello@joaofsantos.com">
             Email me
           </a>
         </section>

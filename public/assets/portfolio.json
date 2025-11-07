@@ -140,10 +140,6 @@
   },
   {
     "company": "Encore Tickets Ltd",
-    "website": {
-      "label": "TheatrePeople.com",
-      "url": "http://www.theatrepeople.com/"
-    },
     "roles": [
       {
         "id": "encore-tickets",

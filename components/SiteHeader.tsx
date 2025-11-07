@@ -1,10 +1,13 @@
+import Image from 'next/image';
+
 import { profile } from '@/content/data';
 
 export function SiteHeader() {
   return (
     <header className="site-header">
-      <a className="site-header__brand" href="/">
-        João Santos
+      <a className="site-header__brand" href="/" aria-label="João Santos home">
+        <Image src="/logo.png" alt="João Santos logo" width={56} height={56} priority />
+        <span className="sr-only">João Santos</span>
       </a>
       <nav className="site-header__nav" aria-label="Primary navigation">
         {profile.navLinks.map((link) => (

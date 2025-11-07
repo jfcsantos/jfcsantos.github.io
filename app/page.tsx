@@ -3,8 +3,7 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { profile } from '@/content/data';
 
 const biography = [
-  "When not crafting interfaces, you'll find me wiring up IoT prototypes, testing the boundaries of the latest AI tools or just sandboxing random techs in my Raspberry Pi homelab.",
-  "Most of my work lives at the intersection of product, engineering and design, pairing modern web tech stacks and cloud-native services to ship reliable web apps that teams can grow with confidence."
+  "When not crafting products, you'll find me wiring up IoT prototypes, testing the boundaries of the latest AI tools or just sandboxing random techs in my Raspberry Pi homelab.",
 ];
 
 export default function HomePage() {

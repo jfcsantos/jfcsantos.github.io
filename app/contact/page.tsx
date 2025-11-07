@@ -43,12 +43,6 @@ export default function ContactPage() {
           ))}
         </section>
 
-        <ul className="hero__list">
-          {profile.highlights.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
-
         <section className="about-cta" aria-label="Next steps">
           <h2>Let’s chat</h2>
           <p>
@@ -59,6 +53,10 @@ export default function ContactPage() {
             Email me
           </a>
         </section>
+
+        <div className="page-logo">
+          <img className="page-logo__image" src="/alt-logo.png" alt="João Santos alternate logo" />
+        </div>
       </main>
       <SiteFooter noNav={true} />
     </div>

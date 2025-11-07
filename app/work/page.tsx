@@ -85,6 +85,10 @@ export default function WorkPage() {
             </article>
           ))}
         </section>
+
+        <div className="page-logo">
+          <img className="page-logo__image" src="/alt-logo.png" alt="João Santos alternate logo" />
+        </div>
       </main>
       <SiteFooter noNav={true} />
     </div>

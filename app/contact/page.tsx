@@ -42,18 +42,24 @@ export default function ContactPage() {
             </article>
           ))}
         </section>
+        <section className="about-hero">
 
-        <section className="about-cta" aria-label="Next steps">
           <h2>Let’s chat</h2>
           <p>
             If you need a steady hand to launch something new, modernise a legacy product or scale a team confidently,
             send me a note. I am always up for honest conversations about the challenges you are trying to solve.
           </p>
+
+          <ul className="hero__list">
+            {profile.highlights.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+
           <a className="cta cta--primary" href="mailto:hello@joaofsantos.com">
             Email me
           </a>
         </section>
-
         <div className="page-logo">
           <img className="page-logo__image" src="/alt-logo.png" alt="João Santos alternate logo" />
         </div>

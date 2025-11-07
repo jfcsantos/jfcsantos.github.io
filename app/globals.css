@@ -654,13 +654,17 @@ a:hover {
 .about-cta {
   width: min(100%, 720px);
   align-self: center;
-  background: linear-gradient(135deg, rgba(255, 143, 143, 0.1), rgba(203, 230, 255, 0.2));
-  border: 2px solid rgba(39, 36, 48, 0.12);
-  border-radius: 28px;
-  padding: 2rem;
+  padding: 0;
   display: grid;
-  gap: 1rem;
+  gap: 0.85rem;
   text-align: left;
+}
+
+.about-cta__eyebrow {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
 }
 
 .about-cta h2 {
@@ -675,8 +679,32 @@ a:hover {
   line-height: 1.75;
 }
 
-.about-cta .cta {
-  width: fit-content;
+.about-cta__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  position: relative;
+}
+
+.about-cta__link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+  opacity: 0.5;
+}
+
+.about-cta__link:hover::after {
+  transform: scaleX(1);
 }
 
 @media (max-width: 720px) {

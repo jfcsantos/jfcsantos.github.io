@@ -1,5 +1,6 @@
 import { SiteFooter } from '@/components/SiteFooter';
 import { SiteHeader } from '@/components/SiteHeader';
+import { profile } from '@/content/data';
 
 const callouts = [
   {
@@ -41,6 +42,12 @@ export default function ContactPage() {
             </article>
           ))}
         </section>
+
+        <ul className="hero__list">
+          {profile.highlights.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
 
         <section className="about-cta" aria-label="Next steps">
           <h2>Let’s chat</h2>

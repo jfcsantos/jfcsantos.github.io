@@ -24,20 +24,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        <ul className="hero__list">
-          {profile.highlights.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
 
-        <div className="cta-group">
-          <a className="cta cta--primary" href={`mailto:${profile.email}`}>
-            Want to work together?
-          </a>
-          <a className="cta cta--ghost" href="/assets/jsantos-cv.pdf" target="_blank" rel="noreferrer">
-            My resume
-          </a>
-        </div>
       </main>
       <SiteFooter />
     </div>

@@ -23,6 +23,7 @@ export const profile = {
     { label: 'Career', url: '/work' },
     // { label: 'Projects', url: 'https://github.com/jfcsantos?tab=repositories', external: true },
     { label: 'Contact', url: '/contact' },
+    { label: 'Resume', url: '/assets/jsantos-cv.pdf', external: true },
     // { label: 'Say hello', url: 'mailto:hello@joaofsantos.com', variant: 'pill' }
   ] as ProfileLink[],
   links: [

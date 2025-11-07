@@ -34,24 +34,40 @@ export default function WorkPage() {
           {companies.map((company) => (
             <article key={company.company} className="work-card">
               <header className="work-card__header">
-                <h2 className="work-card__title">{company.company}</h2>
-                {company.website ? (
-                  <a
-                    className="work-card__link"
-                    href={company.website.url}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {company.website.label}
-                  </a>
-                ) : null}
+                <h2 className="work-card__title">
+                  {company.company}
+                  {company.website ? (
+                    <a
+                      className="work-card__icon"
+                      href={company.website.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`Visit ${company.website.label}`}
+                    >
+                      <span aria-hidden>↗</span>
+                    </a>
+                  ) : null}
+                </h2>
               </header>
 
               <div className="work-card__roles">
                 {company.roles.map((role: Role) => (
                   <div key={role.id} className="work-role">
                     <div className="work-role__heading">
-                      <h3>{role.title}</h3>
+                      <div className="work-role__title">
+                        <h3>{role.title}</h3>
+                        {role.website ? (
+                          <a
+                            className="work-card__icon work-role__icon"
+                            href={role.website.url}
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label={`Visit ${role.website.label}`}
+                          >
+                            <span aria-hidden>↗</span>
+                          </a>
+                        ) : null}
+                      </div>
                       <span className="work-role__date">{role.date}</span>
                     </div>
                     <div
